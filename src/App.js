@@ -1,9 +1,13 @@
-
-import './App.css';
+import Navbar from "./components/Navbar";
+import Main from "./components/Main";
+import "./App.css";
 
 function App() {
   return (
-    <p>Axole</p>
+    <div>
+      <Navbar />
+      <Main />
+    </div>
   );
 }
 
