@@ -67,7 +67,11 @@
     margin-left: 57px;
     padding-top: 46px;
     list-style: none;
-    z-index: 100;
+
+}
+
+li {
+    max-width: 400px;
 }
 
 .facts-list li::before {
@@ -84,5 +88,5 @@
 .backLogo {
     position: absolute;
     left: 418px;
-    top: 50px;
+    top: 108px;
 }
